@@ -18,7 +18,6 @@ const MapDisplay = (props) => {
         shadowUrl: require('leaflet/dist/images/marker-shadow.png')
     });
 
-//API Key AIzaSyCOYligIkQ8p8w3O4thyRX888YI6G5Bf6A
 
     const renderMarker = (position) => {
         if(position){
